@@ -15,7 +15,7 @@ from pathlib import Path
 # Configure Logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-#today = datetime.now()  # Get the current date and time 
+today = datetime.now()  # Get the current date and time 
 
 # Set Directories
 ROOTDIR = '/Volumes/SDAN-EDB/SDAN1/Data/Memory-Project'
