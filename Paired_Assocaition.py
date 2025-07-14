@@ -10,14 +10,13 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 
+today = datetime.now().strftime('%m%d%Y')  # Format as MMDDYYYY  
 # Set Directories
 ROOTDIR = '/Volumes/SDAN-EDB/SDAN1/Data/Memory-Project'
 # Directory for windows
 #ROOTDIR ="Z:\SDAN1\Data\Memory-Project"
 DATA_PATH = os.path.join(ROOTDIR, 'derivatives', 'pairedassociation')
 OUTPUT_DIR = os.path.join(ROOTDIR, "derivatives", "preprocessed")
-
-today = datetime.now().strftime('%m%d%Y')  # Format as MMDDYYYY  
 
 HV_LIST = [37, 69, 23, 57, 76, 32, 65, 68, 45, 
            44, 67, 83, 79, 70, 92, 93, 75, 90]
